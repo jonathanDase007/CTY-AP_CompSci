@@ -1,0 +1,21 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>190</y><w>210</w><h>190</h></coordinates><panel_attributes>Counter
+--
+- int: counts
+--
++ add(): void
++ subtract(): void
++ reset(): void
++ toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>200</y><w>210</w><h>190</h></coordinates><panel_attributes>CounterConsoleMenu
+--
+- Counter: counter
+- int: choice
+- boolean: quits
+- boolean: pass
+--
++ DisChoice(): void
++ GetChoice(): void
++ Increment(): void
++ getQuits(): boolean
++ getPass(): boolean
++ DisplayInput(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>270</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Uses &gt; </panel_attributes><additional_attributes>140;20;10;30</additional_attributes></element></diagram>

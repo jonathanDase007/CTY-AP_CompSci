@@ -1,0 +1,17 @@
+Get a Bowl
+Get a Spoon
+
+If we have Cereal
+    Get Cereal
+Otherwise
+    Get Cereal at store
+add Cereal to bowl
+
+If we have milk
+    Get milk
+Otherwise
+    Get milk at store
+add milk to bowl
+
+
+
